@@ -96,6 +96,8 @@ set nu
 set showtabline=2
 set cursorline
 set background=dark
+set clipboard=unnamedplus
+set mouse=a
 
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.jsx,*.tsx'
 let $FZF_DEFAULT_COMMAND="rg --files --hidden"
@@ -115,6 +117,7 @@ map <C-f> :Rg<Cr>
 map <C-space> :CocAction<Cr>
 map <C-z> u
 map <silent> gs :call CocAction('jumpDefinition', 'split')<CR>
-map <silent> gd :call CocAction('jumpDefinition', 'vsplit')<CR>
+map <silent> gd :call CocAction('jumpDefinition')<CR>
 map <silent> gt :call CocAction('jumpDefinition', 'tabe')<CR>
 map <Leader> <Plug>(easymotion-prefix)
+imap <C-s> <Esc> :w<Cr>
