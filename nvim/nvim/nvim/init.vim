@@ -1,5 +1,7 @@
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
+
 Plug 'tpope/vim-sensible'
+Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 Plug 'alvan/vim-closetag'
 Plug 'airblade/vim-gitgutter'
@@ -15,15 +17,16 @@ Plug 'dracula/vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'morhetz/gruvbox'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'majutsushi/tagbar'
 Plug 'yggdroot/indentline'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'petertriho/nvim-scrollbar'
 Plug 'drewtempelmeyer/palenight.vim'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()
 
 lua << EOF
@@ -95,18 +98,14 @@ set cursorline
 set background=dark
 set clipboard=unnamedplus
 set mouse=a
-set guifont=FiraCode\ NF:h16
 
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.jsx,*.tsx'
 let $FZF_DEFAULT_COMMAND="rg --files --hidden"
 let g:lightline = { 'colorscheme': 'palenight' }
-let g:airline_theme = "palenight"
-let g:airline#extensions#tabline#enabled = 1
-let g:neovide_transparency = 0.9
-let g:neovide_cursor_vfx_mode = "railgun"
 
 autocmd vimenter * ++nested colorscheme palenight
 autocmd vimenter * hi normal guibg=none ctermbg=none
+
 
 map <C-t> :tabnew<cr>
 map <S-Tab> :tabprevious<cr>
