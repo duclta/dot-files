@@ -18,4 +18,6 @@ Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
+Plug 't9md/vim-choosewin'
+Plug 'mhinz/vim-startify'
 call plug#end()
