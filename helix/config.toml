@@ -1,0 +1,23 @@
+theme = "dark_plus"
+
+[editor]
+mouse = false
+auto-save = true
+auto-format = true
+idle-timeout = 400
+completion-trigger-len = 1
+true-color = true
+bufferline = "always"
+color-modes = true
+cursorline = true
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name"]
+center = []
+right = ["diagnostics", "position", "file-encoding", "file-type"]
