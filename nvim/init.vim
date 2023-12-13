@@ -1,11 +1,13 @@
 source ~/.config/nvim/plug.vim
+
 source ~/.config/nvim/keymap.vim
 "source ~/.config/nvim/coc.nvim
 
 lua << EOF
+require("init")
+require("mason-config")
 require("lsp-config")
 require("cmp-config")
-require("mason-config")
 require("bufferline-config")
 require("lualine-config")
 require("gitsigns-config")
