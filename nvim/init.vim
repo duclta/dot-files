@@ -1,11 +1,9 @@
 source ~/.config/nvim/plug.vim
-
 source ~/.config/nvim/keymap.vim
-"source ~/.config/nvim/coc.nvim
 
 lua << EOF
 require("init")
-require("mason-config")
+requirxe("mason-config")
 require("lsp-config")
 require("cmp-config")
 require("bufferline-config")
@@ -19,7 +17,7 @@ require("symbols-outline-config")
 require("null-ls-config")
 EOF
 
-set nu
+set nu relativenumber
 set showtabline=2
 set cursorline
 set clipboard=unnamedplus
