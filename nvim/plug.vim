@@ -17,7 +17,6 @@ Plug 'akinsho/bufferline.nvim', { 'tag': '*' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
-Plug 't9md/vim-choosewin'
 Plug 'mhinz/vim-startify'
 Plug 'petertriho/nvim-scrollbar'
 Plug 'drewtempelmeyer/palenight.vim'
@@ -33,6 +32,6 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'simrat39/symbols-outline.nvim'
-Plug 'jose-elias-alvarez/null-ls.nvim'
+Plug 'stevearc/conform.nvim'
 
 call plug#end()

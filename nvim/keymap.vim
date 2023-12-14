@@ -3,7 +3,7 @@ map <Tab> :bn<cr>
 map <S-Tab> :bp<cr>
 
 " NvimTree
-map <C-0> :NvimTreeToggle<cr>
+map <C-e> :NvimTreeToggle<cr>
 
 " Find files using Telescope command-line sugar.
 map <C-p> <cmd>Telescope find_files<cr>

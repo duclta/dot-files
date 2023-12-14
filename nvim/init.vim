@@ -3,7 +3,7 @@ source ~/.config/nvim/keymap.vim
 
 lua << EOF
 require("init")
-requirxe("mason-config")
+require("mason-config")
 require("lsp-config")
 require("cmp-config")
 require("bufferline-config")
@@ -14,7 +14,7 @@ require("nvim-treesitter-config")
 require("nvim-tree-config")
 require("nvim-scrollbar-config")
 require("symbols-outline-config")
-require("null-ls-config")
+require("conform-config")
 EOF
 
 set nu relativenumber
