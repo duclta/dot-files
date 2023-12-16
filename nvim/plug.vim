@@ -19,10 +19,6 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
 Plug 'mhinz/vim-startify'
 Plug 'petertriho/nvim-scrollbar'
-Plug 'drewtempelmeyer/palenight.vim'
-Plug 'ful1e5/onedark.nvim'
-Plug 'tyrannicaltoucan/vim-deep-space'
-Plug 'tomasiser/vim-code-dark'
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
@@ -33,5 +29,16 @@ Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'simrat39/symbols-outline.nvim'
 Plug 'stevearc/conform.nvim'
+Plug 'SmiteshP/nvim-navic' 
+
+Plug 'drewtempelmeyer/palenight.vim'
+Plug 'ful1e5/onedark.nvim'
+Plug 'tomasiser/vim-code-dark'
+Plug 'tyrannicaltoucan/vim-deep-space'
+Plug 'folke/tokyonight.nvim'
+Plug 'fxn/vim-monochrome'
+Plug 'nordtheme/vim'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'rebelot/kanagawa.nvim'
 
 call plug#end()

@@ -1,19 +1,18 @@
 " Buffer
-map <Tab> :bn<cr>
-map <S-Tab> :bp<cr>
+nnoremap <Tab> :bn<cr>
+nnoremap <S-Tab> :bp<cr>
 
 " NvimTree
-map <C-e> :NvimTreeToggle<cr>
+noremap <C-e> :NvimTreeToggle<cr>
 
 " Find files using Telescope command-line sugar.
-map <C-p> <cmd>Telescope find_files<cr>
-map <C-g> <cmd>Telescope live_grep<cr>
-map <C-b> <cmd>Telescope buffers<cr>
-map <leader>fh <cmd>Telescope help_tags<cr>
-map <leader>qf <cmd>Telescope quickfix<cr>
+nnoremap <space>f <cmd>Telescope find_files<cr>
+nnoremap <space>g <cmd>Telescope live_grep<cr>
+nnoremap <space>b <cmd>Telescope buffers<cr>
+nnoremap <space>d <cmd>Telescope diagnostics<cr>
 
-"symbols-outline
-map <C-m> <cmd>SymbolsOutline<cr>
 
-"nerdcommenter
-map <C-/> <leader>ci
+" nerdcommenter
+nnoremap <C-/> <Plug>NERDCommenterToggle
+nnoremap <C-_> <Plug>NERDCommenterToggle
+

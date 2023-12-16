@@ -9,12 +9,15 @@ vim.opt.termguicolors = true
 
 -- OR setup with some options
 require("nvim-tree").setup({
-  filters = {
-    dotfiles = false,
-  },
-  update_focused_file = {
-    enable = true,
-    update_cwd = false,
-    ignore_list = {},
-  },
+	filters = {
+		dotfiles = false,
+	},
+	update_focused_file = {
+		enable = true,
+		update_cwd = false,
+		ignore_list = {},
+	},
+	view = {
+		width = 30,
+	},
 })
