@@ -33,7 +33,7 @@ set nu relativenumber
 set showtabline=2
 set cursorline
 set guifont=FiraCode\ NF:h16
-set background=dark
+" set background=dark
 " colorscheme codedark
 " colorscheme onedark
 " colorscheme deep-space
@@ -44,10 +44,10 @@ set background=dark
 colorscheme catppuccin
 " colorscheme kanagawa
 
-highlight normal guibg=none ctermbg=none
-highlight endofbuffer guibg=none ctermbg=none
-highlight linenr guibg=none ctermbg=none
-highlight signcolumn guibg=none ctermbg=none
+" highlight normal guibg=none ctermbg=none
+" highlight endofbuffer guibg=none ctermbg=none
+" highlight linenr guibg=none ctermbg=none
+" highlight signcolumn guibg=none ctermbg=none
 
 " nerdcommenter
 let g:NERDCreateDefaultMappings = 1

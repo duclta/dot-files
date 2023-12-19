@@ -13,6 +13,6 @@ nnoremap <space>d <cmd>Telescope diagnostics<cr>
 
 
 " nerdcommenter
-nnoremap <C-/> <Plug>NERDCommenterToggle
-nnoremap <C-_> <Plug>NERDCommenterToggle
+map <C-/> <Plug>NERDCommenterToggle
+map <C-_> <Plug>NERDCommenterToggle
 
