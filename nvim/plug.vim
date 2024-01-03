@@ -29,7 +29,7 @@ Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'simrat39/symbols-outline.nvim'
 Plug 'stevearc/conform.nvim'
-Plug 'SmiteshP/nvim-navic' 
+Plug 'SmiteshP/nvim-navic'
 
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'ful1e5/onedark.nvim'

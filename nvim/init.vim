@@ -4,6 +4,7 @@ source ~/.config/nvim/keymap.vim
 " run plug config
 lua << EOF
 require("init")
+require("telescope-config")
 require("mason-config")
 require("lsp-config")
 require("cmp-config")

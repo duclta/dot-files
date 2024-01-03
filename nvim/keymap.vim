@@ -9,7 +9,11 @@ noremap <C-e> :NvimTreeToggle<cr>
 nnoremap <space>f <cmd>Telescope find_files<cr>
 nnoremap <space>g <cmd>Telescope live_grep<cr>
 nnoremap <space>b <cmd>Telescope buffers<cr>
+nnoremap <space>j <cmd>Telescope jumplist<cr>
 nnoremap <space>d <cmd>Telescope diagnostics<cr>
+nnoremap <space>s <cmd>Telescope lsp_document_symbols<cr>
+nnoremap <space>F <cmd>Telescope current_buffer_fuzzy_find<cr>
+nnoremap gr <cmd>Telescope lsp_references<cr>
 
 
 " nerdcommenter
